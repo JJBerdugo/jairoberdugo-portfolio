@@ -9,8 +9,10 @@ import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col bg-black">
-            <h1>jairoBerdu.go</h1>
+        <main className="flex min-h-screen flex-col bg-[#121212]">
+            <div className=" container mx-auto px-12 py-4">
+                <HeroSection />
+            </div>
         </main>
     );
 }
