@@ -111,6 +111,7 @@ const ProjectsSection = () => {
                         transition={{ duration: 0.3, delay: index * 0.4 }}
                     >
                         <ProjectCard
+                            className="border border-white"
                             key={project.id}
                             title={project.title}
                             description={project.description}

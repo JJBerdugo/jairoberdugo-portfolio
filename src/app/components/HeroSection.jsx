@@ -17,29 +17,29 @@ const HeroSection = () => {
                 >
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-yellow-300">
-                            Thank's, I'm 'JairoBerdu.go{" "}
+                            Hi, Im Jairo
                         </span>
                         <br></br>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                "[./portFolio ] '",
-                                600, // wait 1s before replacing "Mice" with "Hamsters"
-                                "Interactive media design '",
+                                "[./Berdu.go]",
+                                5000, // wait 1s before replacing "Mice" with "Hamsters"
+                                "Media designer",
                                 1000,
-                                "3D Modeling '",
+                                "3D Modeler",
                                 1000,
-                                "Front-end Developer '",
-                                5000,
+                                "Web Developer",
+                                2000,
                             ]}
                             wrapper="span"
-                            speed={60}
+                            speed={10}
                             repeat={Infinity}
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                         Develop the visual and interactive concept according to
-                        the UX/UI guidelines
+                        the UX/UI guidelines.
                     </p>
                     <div>
                         <Link
