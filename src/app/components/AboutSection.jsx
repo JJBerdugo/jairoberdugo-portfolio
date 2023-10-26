@@ -9,10 +9,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="list-disc pl-2">
+                <li>Blender</li>
+                <li>3D Max</li>
                 <li>Node.js</li>
                 <li>Java</li>
                 <li>JavaScript</li>
-                <li>Next</li>
+                <li>NextJs</li>
                 <li>Phyton</li>
                 <li>React</li>
             </ul>
@@ -24,6 +26,7 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Devtools-Academy</li>
+                <li>Meteorito.co</li>
                 <li>University ICESI, Santiago de Cali</li>
             </ul>
         ),
@@ -34,6 +37,7 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Frontend Developer</li>
+                <li>3D Modeler</li>
                 <li>Interactive Media Designer</li>
             </ul>
         ),

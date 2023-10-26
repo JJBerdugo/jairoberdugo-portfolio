@@ -6,8 +6,63 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
-        id: 1,
+        id: 7,
+        title: "Nightstand",
+        description: "3D Model",
+        image: "/images/projects/7.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
+        id: 8,
+        title: "Monopli car",
+        description: "3D Model",
+        image: "/images/projects/8.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+
+    {
+        id: 9,
+        title: "Game controller",
+        description: "3D Model",
+        image: "/images/projects/9.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
+        id: 10,
+        title: "Among Us figurin",
+        description: "3D Model",
+        image: "/images/projects/10.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
+        id: 11,
+        title: "3D Human Sculpt",
+        description: "3D Model",
+        image: "/images/projects/11.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
+        id: 0,
         title: "Next Portfolio Website",
+        description: "portfolio Web and 3D Modeler",
+        image: "/images/projects/0.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
+        id: 1,
+        title: "Next Hotels Website",
         description: "Hotel Reservation Page",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
@@ -37,7 +92,7 @@ const projectsData = [
         title: "Marketing Food-Proyect",
         description: "La Crepa Creperia",
         image: "/images/projects/4.png",
-        tag: ["All", "Mobile"],
+        tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
     },
@@ -97,8 +152,8 @@ const ProjectsSection = () => {
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    name="Mobile"
-                    isSelected={tag === "Mobile"}
+                    name="3D"
+                    isSelected={tag === "3D"}
                 />
             </div>
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
