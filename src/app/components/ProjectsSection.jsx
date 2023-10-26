@@ -52,6 +52,15 @@ const projectsData = [
         previewUrl: "/",
     },
     {
+        id: 12,
+        title: "3D Headphone model",
+        description: "3D Model",
+        image: "/images/projects/12.png",
+        tag: ["All", "3D"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+    {
         id: 0,
         title: "Next Portfolio Website",
         description: "portfolio Web and 3D Modeler",
